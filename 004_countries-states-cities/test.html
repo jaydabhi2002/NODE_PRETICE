@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>data</title>
+</head>
+<body onload="getCountries()">
+    
+    <select name="country" id="country" onchange="getStates(value)">
+        <option value="0">---Select Country---</option>
+
+    </select>
+
+    <select name="state" id="state" onchange="getCities(value)">
+        <option value="0">---Select state---</option>
+    </select>
+
+    <select name="city" id="city" onchange="getWeather(value)">
+        <option value="0">---Select city---</option>
+    </select>
+
+
+        <div class="card shadow-0 border">
+            <div class="card-body p-4">
+
+                <h4 class="mb-1 sfw-normal" id="city"></h4>
+                <p class="mb-2">Current temperature: <strong id="temp">5.42°C</strong></p>
+                <p>Pressure: <strong id="pressure">4.37°C</strong></p>
+                <p>Humidity: <strong id="humidity">4.37°C</strong></p>
+                <p>lat: <strong id="lat">6.11</strong>, lng: <strong id="lng">3.89</strong></p>
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</div>
+    </select>
+
+
+<script src="app.js"></script>
+</body>
+</html>
