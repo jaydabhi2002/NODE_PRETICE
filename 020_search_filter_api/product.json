@@ -1,0 +1,39 @@
+[
+  {
+    "name": "iphone14pro",
+    "price": 154,
+    "featured": true,
+    "company": "apple"
+  },
+
+  {
+    "name": "iphone14promax",
+    "price": 1154,
+    "featured": true,
+    "company": "apple"
+  },
+
+  {
+    "name": "mi10",
+    "price": 204,
+    "company": "mi"
+  },
+
+  {
+    "name": "mi11",
+    "price": 3045,
+    "company": "mi"
+  },
+
+  {
+    "name": "Samsung Galaxy S23Plus",
+    "price": 501,
+    "company": "samsung"
+  },
+
+  {
+    "name": "Samsung Galaxy Note9",
+    "price": 701,
+    "company": "samsung"
+  }
+]
